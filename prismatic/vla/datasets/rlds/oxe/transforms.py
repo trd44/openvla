@@ -847,6 +847,7 @@ def identity_transform(trajectory: Dict[str, Any]) -> Dict[str, Any]:
 # === Registry ===
 OXE_STANDARDIZATION_TRANSFORMS = {
     "example_dataset" : identity_transform,
+    "hanoi_dataset" : identity_transform,
     "kitchen_env" : identity_transform,
     "bridge_oxe": bridge_oxe_dataset_transform,
     "bridge_orig": bridge_orig_dataset_transform,
